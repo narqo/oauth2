@@ -17,10 +17,10 @@ import (
 
 // expiryDelta determines how earlier a token should be considered
 // expired than its actual expiration time. It is used to avoid late
-// expirations due to client-server time mismatches.
+// expiration due to client-server time mismatches.
 const expiryDelta = 10 * time.Second
 
-// Token represents the crendentials used to authorize
+// Token represents the credentials used to authorize
 // the requests to access protected resources on the OAuth 2.0
 // provider's backend.
 //
